@@ -2,7 +2,7 @@ import React from 'react';
 
 const Knowledges = () => {
     return (
-        <div className='section' id='Knowledges'>
+        <div className='section knowledges' id='Knowledges'>
             Knowledges
         </div>
     );
