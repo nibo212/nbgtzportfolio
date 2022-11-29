@@ -1,9 +1,9 @@
-
+@import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap");
 
 .home {
     padding-top: 2%;
     justify-content: center;
-    background-color: burlywood;
+    background-color: $white;
 
     div{
         display: flex;
@@ -28,7 +28,7 @@
     
     .div1 { grid-area: 1 / 2 / 2 / 3;
             height: 15rem;
-            background-color: red;
+            
 
             h1{
                 font-family: $title-font;
@@ -37,21 +37,59 @@
 
     .div2 {
          grid-area: 2 / 2 / 3 / 3; 
-         background-color: blue;
+         display: flex;
+        justify-content: center;
+        align-items: center;
+        // min-height: 100vh;
+        font-family: "Bebas Neue", cursive;
+        border-radius: 30%; 
+
+        .eyescontainer {
+            display: flex;
+
+            .eyes {
+                position: relative;
+                width: 100px;
+                height: 100px;
+                display: block;
+                background-color: #fff;
+                margin: 0 20px;
+                border-radius: 50%;
+                box-shadow: 0 5px 45px rgba(0, 0, 0, 0.2), inset 0 0 15px #f5af19,
+                  inset 0 0 25px #f5af19;
+                }
+
+                .eyes::before {
+                    content: "";
+                    top: 50%;
+                    left: 35px;
+                    transform: translate(-50%, -50%);
+                    width: 50px;
+                    height: 50px;
+                    border-radius: 50%;
+                    background: #000;
+                    position: absolute;
+                    border: 10px solid skyblue;
+                    box-sizing: border-box;
+                    }
+
+            
+            }
+
         }
 
     .div3 { 
         grid-area: 3 / 1 / 4 / 2;
-        background-color: yellow;
+        font-family: $title2;
      }
 
     .div4 { 
         grid-area: 3 / 2 / 4 / 3;
-        background-color: aquamarine;
+        font-family: $title2;
      }
     .div5 { 
         grid-area: 3 / 3 / 4 / 4; 
-        background-color: gray;
+        font-family: $title2;
     }
     
 }
