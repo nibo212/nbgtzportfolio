@@ -2,11 +2,10 @@ import React from 'react';
 
 const Home = () => {
     return (
-        <div>
+        <div className='section' id='Home'>
             <p>
             Home
             </p>
-            
         </div>
     );
 };

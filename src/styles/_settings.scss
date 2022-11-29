@@ -1,3 +1,47 @@
-div{
-    background-color: red;
+
+$white: #FBFBFB;
+$grey: #C8CCCE;
+$black: #2B2B2A;
+$blue: #4464ad;
+$red: #ff674d;
+
+html {
+    scroll-behavior: smooth;
+  }
+  
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: none;
 }
+
+body{
+    background-color: $white;
+    margin: 0;
+    padding: 0;
+
+    
+    
+    .Main{
+
+        
+
+        .MainContent {
+            width: 95%;
+            float: right;
+            position: relative;
+            margin: 0;            
+    
+            .section {
+                height: 100vh;
+            }
+        }
+
+    }
+
+    
+}
+
+
+
+    
