@@ -2,7 +2,7 @@
 
 .aboutme
 {
-    background-color: cornflowerblue;
+    background-color: $white;
 
 
     .parentaboutme{
@@ -35,7 +35,7 @@
               background-image: linear-gradient(
                 to right,
                 yellow,
-                yellow 50%,
+                $blue 50%,
                 $blue 50%
               );
               background-size: 200% 100%;
@@ -74,12 +74,12 @@
         .divlefttopcorner 
         { 
             grid-area: 1 / 1 / 2 / 2;
-            background: #f2f2f2;
+            background: $white;
             
 
             .container  {
                 position: absolute;
-                left: 10px;
+                left: 10%;
                 top: 17%;
                 // transform: translate(-50%, -50%);
                 height: 200px;
@@ -131,7 +131,7 @@
                     content: "YOLO";
                     font-family: $title-font;
                     font-size: larger;
-                    color: red ;
+                    color: $blue ;
                     display: flex;
                     align-items: center;
                     height: 100%;
@@ -160,11 +160,11 @@
         .divleftbottomcorner
         { 
             grid-area: 3 / 1 / 4 / 2;
-            background-color: yellow;
+            background-color: $white;
 
             .container1  {
               position: absolute;
-              left: 10px;
+              left: 10%;
               top: 27%;
               // transform: translate(-50%, -50%);
               height: 200px;
@@ -215,7 +215,7 @@
                   content: "YOLO";
                   font-family: $title-font;
                   font-size: larger;
-                  color: red ;
+                  color: $blue;
                   display: flex;
                   align-items: center;
                   height: 100%;
@@ -241,11 +241,11 @@
         .divrightbottomcorner 
         { 
             grid-area: 3 / 3 / 4 / 4;
-            background-color: yellowgreen;
+            background-color: $white;
 
             .container2  {
               position: absolute;
-              right: 10px;
+              right: 10%;
               top: 27%;
               // transform: translate(-50%, -50%);
               height: 200px;
@@ -296,7 +296,7 @@
                   content: "YOLO";
                   font-family: $title-font;
                   font-size: larger;
-                  color: red ;
+                  color:$blue ;
                   display: flex;
                   align-items: center;
                   height: 100%;
@@ -324,11 +324,11 @@
         .divrighttopcorner 
         { 
             grid-area: 1 / 3 / 2 / 4;
-            background-color: orange;
+            background-color: $white;
 
             .container3  {
               position: absolute;
-              right: 10px;
+              right: 10%;
               top: 17%;
               // transform: translate(-50%, -50%);
               height: 200px;
@@ -379,7 +379,7 @@
                   content: "YOLO";
                   font-family: $title-font;
                   font-size: larger;
-                  color: red ;
+                  color: $blue;
                   display: flex;
                   align-items: center;
                   height: 100%;

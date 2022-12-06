@@ -1,3 +1,135 @@
+@mixin  Cardprovider {
+    border-radius: 10px;
+    border: 2px solid $black;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
+
+    header{
+        border-top-left-radius: 10px ;
+        border-top-right-radius: 10px ;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 2rem;
+        font-family: $title-font;
+
+    }
+}
+
+
 .knowledges{
-    background-color: black;
+    background-color: $white;
+    height: 100vh;
+    padding: 2%;
+
+    .parent {
+        display: grid;
+        grid-template-columns: repeat(7, 1fr);
+        grid-template-rows: repeat(8, 1fr);
+        grid-column-gap: 0px;
+        grid-row-gap: 0px;
+        height: 100%;
+        
+        }
+        
+        .div1 
+        { 
+            grid-area: 1 / 1 / 9 / 4;
+            background-color: $white;
+            @include Cardprovider();
+
+            header{
+                
+                
+                h2{
+                    color: #aa02dd;
+                }
+            }
+
+            .content{
+                height: 96%;
+                width: 100%;
+                padding: 3%;
+                display: flex;
+                flex-direction: row;
+                flex-wrap: wrap;
+            }
+
+         }
+        .div2 
+        { 
+            grid-area: 1 / 5 / 3 / 8;
+            background-color: $white;
+            @include Cardprovider();
+
+            header{
+                
+                
+                h2{
+                    color: #3773e2;
+                }
+            }
+
+            .content{
+
+                padding: 1%;
+                display: flex;
+                flex-direction: row;
+                flex-wrap: wrap;
+                justify-content: center;
+            }
+
+            
+
+         }
+        .div3 
+        { 
+            grid-area: 4 / 5 / 6 / 8;
+            background-color: $white;
+            @include Cardprovider();
+
+            header{
+                
+                
+                h2{
+                    color: #23d432;
+                }
+            }
+
+            .content{
+                padding: 1%;
+                display: flex;
+                flex-direction: row;
+                flex-wrap: wrap;
+                justify-content: center;
+
+            }
+
+
+
+         }
+        .div4 
+        { 
+            grid-area: 7 / 5 / 9 / 8;
+            background-color: $white;
+            @include Cardprovider();
+
+            header{
+                
+                
+                h2{
+                    color: #dada3a;
+                }
+            }
+            .content{
+                
+                padding: 1%;
+                display: flex;
+                flex-direction: row;
+                flex-wrap: wrap;
+                justify-content: center;
+
+            }
+
+
+         }
 }
