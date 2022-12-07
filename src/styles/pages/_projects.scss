@@ -1,6 +1,67 @@
+
+@mixin Card 
+{
+   border: solid 2px;
+   border-radius: 5px;
+   box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px, rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
+}
+
+
 .projects{
-   background-color: beige;
-   height: 100vh;
+   // background-color: beige;
+   // height: 100vh;
+
+
+
+   margin: 0;
+   padding: 0;
+   min-height: 100vh;
+   background: $white;
+   padding: 4% 4% 4% 4%;
+
+   .parent {
+      display: grid;
+      grid-template-columns: repeat(5, 1fr);
+      grid-template-rows: repeat(10, 1fr);
+      grid-column-gap: 0px;
+      grid-row-gap: 0px;
+      height: 95%;
+      width: 90%;
+      
+      .div1 { grid-area: 1 / 1 / 5 / 6;
+        
+         background-color: rgb(71, 80, 206);
+         @include Card();
+
+         .logo{
+            height: 25%;
+            margin: 6px;
+            img{
+               height: 100%;
+            }
+
+         }
+
+         
+
+
+       }
+      .div2 { grid-area: 6 / 1 / 8 / 6; 
+         background-color: rgb(255, 181, 97);
+         @include Card();
+
+      }
+      .div3 { grid-area: 9 / 1 / 11 / 6; 
+         @include Card();
+         background-color: rgb(159, 168, 170);
+
+
+      }
+
+      }
+      
+      
+  
    
 
    }
