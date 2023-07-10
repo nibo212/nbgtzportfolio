@@ -13,8 +13,12 @@ export default class Knowledges extends Component {
    let {knowledges} = this.state;
 
     return (
-      <div className='knowledges'>
-      <div class="parent">
+        <div className='knowledges' id="Knowledges">
+            <div className='exptop'><h1>Professional Skills</h1></div>
+            <br></br>
+            <br></br>
+            <div class="parent">
+      <div class="leftdiv">
       <div class="div1">
         <header>
           <h2>Software and Web Skills</h2>
@@ -30,7 +34,9 @@ export default class Knowledges extends Component {
             }) 
         }
         </div>
-         </div>
+            </div>
+          </div>
+      <div class="rightdiv">
       <div class="div2"> 
       <header>
           <h2>Integration / Deployement</h2>
@@ -47,7 +53,8 @@ export default class Knowledges extends Component {
         }
         </div>
        
-        </div>
+            </div>
+      <br></br>
       <div class="div3"> 
       <header>
           <h2>Methods and Softskills</h2>
@@ -63,7 +70,8 @@ export default class Knowledges extends Component {
             }) 
         }
         </div>
-        </div>
+            </div>
+            <br></br>
       <div class="div4"><header>
           <h2>Data Management</h2>
         </header>
@@ -78,7 +86,8 @@ export default class Knowledges extends Component {
             }) 
         }
         </div>
-         </div>
+            </div>
+            </div>
       </div>
     </div>
       

@@ -12,10 +12,10 @@ export default class Knowledge extends Component {
             <img src={icon}/>       
            </div>
         <div className='Progressbar'>
-            <div className="progressBar" style={{width:level}}></div>
-
+          <div className="progressBar" style={{ width: level }}></div>
         </div>
         <div className='experience'>
+        <p>{level} % </p>
             <p>{experience}</p>
         </div>
       </div>

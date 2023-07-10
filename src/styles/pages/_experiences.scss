@@ -1,16 +1,24 @@
 .experiences{
-    background-color: blanchedalmond;
-
-     
-    
     display: flex;
     align-items: center;
     justify-content: center;
     min-height: 100vh;
-    font-family: 'Poppins', sans-serif;
+    font-family: $Montfont;
     color: #ffffff;
-    background-color: #333333;
+    background-color: $white;
+    flex-direction: column;
   }
+
+  .exptop{
+    width: 85%;
+    h1{
+      text-align: left;
+      font-family: $Montfont;
+      color: #3503ad;
+    }
+
+  }
+  
   
   .container {
     flex-grow: 1;
@@ -40,6 +48,8 @@
     align-items: center;
     justify-content: center;
     background-color: #000000;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
     
     &::before {
       content: "";
@@ -54,7 +64,7 @@
     }
     
     &:nth-child(1) {
-      background-image: linear-gradient(45deg, #3503ad, #f7308c);
+      background-image: linear-gradient(45deg, #3503ad, rgb(48, 144, 247));
     }
     
     &:nth-child(2) {
@@ -62,7 +72,7 @@
     }
     
     &:nth-child(3) {
-      background-image: linear-gradient(45deg, #e91e63, #ffeb3b);
+      background-image: linear-gradient(45deg, #e91e63, #8d0070);
     }
   }
   
@@ -136,7 +146,7 @@
     }
     
     .card:nth-child(1) & {
-      background-image: linear-gradient(45deg, #3503ad, #f7308c);
+      background-image: linear-gradient(45deg,  #3503ad, rgb(48, 144, 247));
     }
     
     .card:nth-child(2) & {
@@ -144,7 +154,7 @@
     }
     
     .card:nth-child(3) & {
-      background-image: linear-gradient(45deg, #e91e63, #ffeb3b);
+      background-image: linear-gradient(45deg, #e91e63, #8d0070);
     }
   }
   

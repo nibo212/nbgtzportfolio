@@ -21,7 +21,7 @@ export default class Home extends Component {
         <div className='section home' id='Home'>
         <div className="parent" onMouseMove={this.handleMouseMove}>
             <div className="div1">
-                <h1> Welcome to the Nicolas Bogenschutz portfolio</h1>
+                <h1> Welcome to Nicolas Bogenschutz portfolio</h1>
             </div>
         <div className="div2">
         <div class="eyescontainer">
@@ -35,7 +35,7 @@ export default class Home extends Component {
                         <br></br>
                         <li>Nicolas Bogenschutz</li>
                         <li>French and Brazilian</li>
-                        <li>21 years old</li>
+                        <li>22 years old</li>
                         <li>Strasbourg</li>
                     </ul>
                 </div>

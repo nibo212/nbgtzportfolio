@@ -1,9 +1,47 @@
 @import url('https://fonts.googleapis.com/css2?family=Merriweather:wght@300;900&display=swap');
 
+@media (max-width: 768px) {
+  .parentaboutme {
+      grid-template-columns: repeat(1, 1fr);
+      grid-template-rows: repeat(6, 1fr);
+  }
+
+  .divCentral, .divlefttopcorner, .divleftbottomcorner, .divrightbottomcorner, .divrighttopcorner {
+      grid-column: 1 / 2;
+  }
+
+  .divCentral {
+      grid-row: 1 / 2;
+  }
+
+  .divlefttopcorner {
+      grid-row: 2 / 3;
+  }
+
+  .divleftbottomcorner {
+      grid-row: 3 / 4;
+  }
+
+  .divrightbottomcorner {
+      grid-row: 4 / 5;
+  }
+
+  .divrighttopcorner {
+      grid-row: 5 / 6;
+  }
+
+  .container, .container1, .container2, .container3 {
+      width: 90%;
+      left: 5%;
+      right: 5%;
+  }
+}
+
+
 .aboutme
 {
     background-color: $white;
-
+    height: auto;
 
     .parentaboutme{
         display: grid;
@@ -13,7 +51,7 @@
         grid-row-gap: 0px;
         justify-content:center;
 
-        height: 90%;
+        height: 100%;
 
         .divCentral 
         { 
@@ -34,9 +72,9 @@
             h1 {
               background-image: linear-gradient(
                 to right,
-                yellow,
-                $blue 50%,
-                $blue 50%
+                #aa02dd,
+                #3773e2 50%,
+                #3773e2 50%
               );
               background-size: 200% 100%;
               background-position: -100%;
@@ -80,7 +118,7 @@
             .container  {
                 position: absolute;
                 left: 10%;
-                top: 17%;
+                // top: 17%;
                 // transform: translate(-50%, -50%);
                 height: 200px;
                 width: 450px;
@@ -92,8 +130,6 @@
 
                 .content {
                     position: absolute;
-                    // top: 50%;
-                    // transform: translatey(-50%);
                     text-align: justify;
                     color: black;
                     padding: 40px;
@@ -128,7 +164,7 @@
                   
                   .flap::after {
                     position: absolute;
-                    content: "YOLO";
+                    content: "Mindset";
                     font-family: $title-font;
                     font-size: larger;
                     color: $blue ;
@@ -165,7 +201,7 @@
             .container1  {
               position: absolute;
               left: 10%;
-              top: 27%;
+              // top: 27%;
               // transform: translate(-50%, -50%);
               height: 200px;
               width: 450px;
@@ -177,11 +213,14 @@
 
               .content1 {
                   position: absolute;
-                  
                   text-align: justify;
                   color: black;
                   padding: 40px;
                   font-family: 'Merriweather', serif;
+
+                  ul{
+                    list-style: none;
+                  }
 
                   h1 {
                       font-weight: 900;
@@ -212,7 +251,7 @@
                 
                 .flap1::after {
                   position: absolute;
-                  content: "YOLO";
+                  content: "Hobbies";
                   font-family: $title-font;
                   font-size: larger;
                   color: $blue;
@@ -246,7 +285,7 @@
             .container2  {
               position: absolute;
               right: 10%;
-              top: 27%;
+              // top: 27%;
               // transform: translate(-50%, -50%);
               height: 200px;
               width: 450px;
@@ -329,7 +368,7 @@
             .container3  {
               position: absolute;
               right: 10%;
-              top: 17%;
+              // top: 17%;
               // transform: translate(-50%, -50%);
               height: 200px;
               width: 450px;
@@ -346,6 +385,10 @@
                   color: black;
                   padding: 40px;
                   font-family: 'Merriweather', serif;
+
+                  ul{
+                    list-style: none;
+                  }
 
                   h1 {
                       font-weight: 900;
@@ -376,7 +419,7 @@
                 
                 .flap3::after {
                   position: absolute;
-                  content: "YOLO";
+                  content: "Languages";
                   font-family: $title-font;
                   font-size: larger;
                   color: $blue;

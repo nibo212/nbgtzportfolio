@@ -35,7 +35,8 @@
             
 
             h1{
-                font-family: $title-font;
+                font-family: $Montfont;
+                font-size: 2rem;
             }
          }
 
@@ -45,7 +46,7 @@
         justify-content: center;
         align-items: center;
         // min-height: 100vh;
-        font-family: "Bebas Neue", cursive;
+        font-family: $Montfont;
         border-radius: 30%; 
 
         .eyescontainer {
@@ -84,7 +85,7 @@
 
     .div3 { 
         grid-area: 3 / 1 / 4 / 2;
-        font-family: $title2;
+        font-family: $Montfont;
         width: 100%;
 
         ul:hover {
@@ -100,7 +101,7 @@
 
     .div4 { 
         grid-area: 3 / 2 / 4 / 3;
-        font-family: $title2;
+        font-family: $Montfont;
         width: 100%;
 
         ul:hover {
@@ -115,7 +116,7 @@
 
     .div5 { 
         grid-area: 3 / 3 / 4 / 4; 
-        font-family: $title2;
+        font-family: $Montfont;
         width: 100%;
 
         ul{

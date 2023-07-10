@@ -7,6 +7,7 @@ import Aboutme from './pages/Aboutme';
 import Contact from './pages/Contact';
 import Experiences from './pages/Experiences';
 import Navbar from './components/Navbar.js';
+import { ParallaxProvider } from 'react-scroll-parallax';
 
 // import {
 //   BrowserRouter as Router,
@@ -28,7 +29,9 @@ const App = () => {
           <Knowledges />
           <Projects />
           <Experiences />
-          <Contact />
+          <ParallaxProvider>
+            <Contact />
+          </ParallaxProvider>
           </div>
       </div>
     </>
