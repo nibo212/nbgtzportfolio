@@ -39,6 +39,14 @@
     h2 {
         color: #333;
         margin-bottom: 20px;
+
+        transition: transform 1s; // Définit une transition pour une rotation douce
+
+        &:hover {
+            transform: rotate(360deg); // Fait tourner l'élément de 360 degrés lorsque la souris est dessus
+            scale: 1.2;
+        }
+    
     }
 
     .contact-link {

@@ -41,7 +41,7 @@ export const knwoledgesData = [
       },
       {
         id: 6,
-        name: "VueJS",
+        name: "JS",
         icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-plain.svg" ,
         level: 70,
         experience:"CESI project",
@@ -99,31 +99,15 @@ export const knwoledgesData = [
         id: 13,
         name: "Unity",
         icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/unity/unity-original.svg" ,
-        level: 85,
+        level: 65,
         experience:"Serious Game",
         type:1
       },
-      // {
-      //   id: 14,
-      //   name: "SQL",
-      //   icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mysql/mysql-original-wordmark.svg" ,
-      //   level: 85,
-      //   experience:"Stage de 6 mois",
-      //   type:1
-      // },
-      // {
-      //   id: 15,
-      //   name: "SQL",
-      //   icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mysql/mysql-original-wordmark.svg" ,
-      //   level: 85,
-      //   experience:"Stage de 6 mois",
-      //   type:1
-      // },
       {
         id: 16,
         name: "Hive",
         icon: "https://upload.wikimedia.org/wikipedia/commons/thumb/b/bb/Apache_Hive_logo.svg/1138px-Apache_Hive_logo.svg.png" ,
-        level: 85,
+        level: 60,
         experience:"Stage de 6 mois",
         type:4
       },
@@ -139,7 +123,7 @@ export const knwoledgesData = [
         id: 18,
         name: "teamWork",
         icon: "https://svgsilh.com/svg/2844484.svg" ,
-        level: 85,
+        level: 90,
         experience:"CESI and Alternship projects",
         type:3
       },
@@ -158,5 +142,21 @@ export const knwoledgesData = [
         level: 50,
         experience:"CESI Project",
         type:3
-      },
+  },
+  {
+    id: 21,
+    name: "Bootstrap",
+    icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/bootstrap/bootstrap-original-wordmark.svg" ,
+    level: 50,
+    experience:"CESI Project and Alternship",
+    type:1
+  },
+  {
+    id: 22,
+    name: "VueJS",
+    icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/vuejs/vuejs-original-wordmark.svg" ,
+    level: 60,
+    experience:"CESI project",
+    type:1  
+  }
   ]

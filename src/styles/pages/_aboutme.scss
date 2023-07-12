@@ -122,18 +122,18 @@
                 // transform: translate(-50%, -50%);
                 height: 200px;
                 width: 450px;
-                background: #f2f2f2;
+                background: #ffffff;
                 overflow: hidden;
                 border-radius: 20px;
                 cursor: pointer;
-                box-shadow: 0 0 20px 8px #d0d0d0;
+                box-shadow: rgba(0, 250, 205, 0.775) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
 
                 .content {
                     position: absolute;
                     text-align: justify;
                     color: black;
-                    padding: 40px;
-                    font-family: 'Merriweather', serif;
+                    padding: 20px;
+                    font-family: $Montfont;
 
                     h1 {
                         font-weight: 900;
@@ -205,18 +205,18 @@
               // transform: translate(-50%, -50%);
               height: 200px;
               width: 450px;
-              background: #f2f2f2;
+              background: #ffffff;
               overflow: hidden;
               border-radius: 20px;
               cursor: pointer;
-              box-shadow: 0 0 20px 8px #d0d0d0;
+              box-shadow: rgba(142, 13, 154, 0.845) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
 
               .content1 {
                   position: absolute;
                   text-align: justify;
                   color: black;
-                  padding: 40px;
-                  font-family: 'Merriweather', serif;
+                  padding: 20px;
+                  font-family: $Montfont;
 
                   ul{
                     list-style: none;
@@ -289,19 +289,24 @@
               // transform: translate(-50%, -50%);
               height: 200px;
               width: 450px;
-              background: #f2f2f2;
+              background: #ffffff;
               overflow: hidden;
               border-radius: 20px;
               cursor: pointer;
-              box-shadow: 0 0 20px 8px #d0d0d0;
+              // box-shadow: 0 0 20px 8px #0059c6;
+              box-shadow: rgba(228, 213, 3, 0.821) 0px 19px 38px, rgba(228, 213, 3, 0.821) 0px 15px 12px;
 
               .content2 {
                   position: absolute;
                   
                   text-align: justify;
                   color: black;
-                  padding: 40px;
-                  font-family: 'Merriweather', serif;
+                  padding: 20px;
+                  font-family: $Montfont;
+
+                  ul{
+                    list-style: none;
+                  }
 
                   h1 {
                       font-weight: 900;
@@ -332,7 +337,7 @@
                 
                 .flap2::after {
                   position: absolute;
-                  content: "YOLO";
+                  content: "Quality";
                   font-family: $title-font;
                   font-size: larger;
                   color:$blue ;
@@ -372,19 +377,19 @@
               // transform: translate(-50%, -50%);
               height: 200px;
               width: 450px;
-              background: #f2f2f2;
+              background: #ffffff;
               overflow: hidden;
               border-radius: 20px;
               cursor: pointer;
-              box-shadow: 0 0 20px 8px #d0d0d0;
+              box-shadow: rgba(1, 47, 212, 0.3) 0px 19px 38px, rgba(1, 47, 212, 0.3) 0px 15px 12px;
 
               .content3 {
                   position: absolute;
                   
                   text-align: justify;
                   color: black;
-                  padding: 40px;
-                  font-family: 'Merriweather', serif;
+                  padding: 20px;
+                  font-family: $Montfont;
 
                   ul{
                     list-style: none;

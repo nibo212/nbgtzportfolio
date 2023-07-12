@@ -22,9 +22,12 @@ const Aboutme = () => {
                 <div class="content1">
                 <ul>
                     <li><h3>Programming </h3></li>
+                    <br></br>
                     <li><h3>Fitness - Streetworkout </h3></li>
+                    <br></br>
                     <li><h3>Soccer</h3></li>
-                    <li><h3>Gaming</h3></li>
+                    <br></br>
+                    <li><h3>Gaming</h3></li>           
                 </ul>
                 </div>
             <div class="flap1"></div>
@@ -35,10 +38,13 @@ const Aboutme = () => {
                 <div class="container2">
                         <div class="content2">
                             <ul>
-                                <li><h3>French : native language</h3></li>
-                                <li>English : 850 TOEIC - B2/C1 </li>
-                                <li>German : KMK - B1/B2</li>
-                                <li>Portuges : understood and spoken </li>
+                                <li><h3>Adaptability</h3></li>
+                                <br></br>
+                                <li><h3>Curious</h3></li>
+                                <br></br>
+                                <li><h3>Dynamic</h3></li>
+                                <br></br>
+                                <li><h3>Continuous improvement</h3></li>
                             </ul>
                     </div>
                     <div class="flap2"></div>
